@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ta"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/team_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="@string/cnt"
+        android:textSize="30sp"
+        android:gravity="center"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addthreepoints"
+        android:text="@string/p1"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addtwopoints"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:text="@string/p2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addonepoints"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:text="@string/free"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/team_scoreb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cntb"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addthreepointsb"
+            android:text="@string/p1b"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addtwopointsb"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            android:text="@string/p2b"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addonepointsb"
+            tools:ignore="OnClick,UsingOnClickInXml"
+            android:text="@string/freeb"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetthecntb"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:text="@string/resetb"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Count_score</string>
+    <string name="ta">Team A</string>
+    <string name="p1">+3 Points</string>
+    <string name="p2">+2 Points</string>
+    <string name="free">Free throw</string>
+    <string name="cnt">0</string>
+    <string name="reset">Reset</string>
+
+    <string name="tab">Team B</string>
+    <string name="p1b">+3 Points</string>
+    <string name="p2b">+2 Points</string>
+    <string name="freeb">Free throw</string>
+    <string name="cntb">0</string>
+    <string name="resetb">Reset</string>
+</resources>

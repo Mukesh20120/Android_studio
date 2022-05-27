@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Topping"
+        tools:ignore="HardcodedText"
+        android:textAllCaps="true"
+        android:textSize="16sp"/>
+      <CheckBox
+          android:id="@+id/wrapping"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="24dp"
+          android:text="Wipped cream"
+          android:textSize="16sp"
+
+          tools:ignore="HardcodedText,OnClick,RtlHardcoded,RtlSymmetry,UsingOnClickInXML"
+          />
+
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:text="Chocolate"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,OnClick,RtlHardcoded,RtlSymmetry,UsingOnClickInXML"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:text="@string/qty"
+        android:textAllCaps="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/increase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/increase"
+        android:textSize="30sp"
+        android:layout_margin="5sp"
+        android:onClick="increseit"
+        tools:ignore="UsingOnClickInXml"
+        />
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/order_qty"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+    <Button
+        android:id="@+id/decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decrease"
+        android:textSize="30sp"
+        android:layout_margin="5sp"
+        android:onClick="decreaseit"
+        tools:ignore="UsingOnClickInXml"
+        />
+          </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/price"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/rate"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        android:layout_marginTop="16dp"
+        android:onClick="submitOrder"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>

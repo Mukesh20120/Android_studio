@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FoodPlace</string>
+    <string name="cafe_house">Cafe House</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="skip">skip</string>
+    <string name="img">img</string>
+    <string name="already_present">Already have account? Login</string>
+    <string name="g">Google</string>
+    <string name="fb">Facebook</string>
+    <string name="other_way">Or with</string>
+    <string name="reg">register</string>
+    <string name="pass">**********</string>
+    <string name="hintmail">fakemail@gmil.com</string>
+    <string name="hintNo">+91 9838557904</string>
+    <string name="hint_name">Enter name</string>
+    <string name="upload_img">upload Image</string>
+    <string name="sign_in">Sign In</string>
+    <string name="want_to_register">Want to Register?</string>
+</resources>
