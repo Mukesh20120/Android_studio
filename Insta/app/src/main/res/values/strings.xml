@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Insta</string>
+    <string name="home">Home</string>
+    <string name="add">ADD</string>
+    <string name="heart">Heart</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search">search</string>
+    <string name="profile">profile</string>
+    <string name="noone">NoOne</string>
+    <string name="adult">adult</string>
+    <string name="boy">Boy</string>
+    <string name="girl">girl</string>
+    <string name="man">man</string>
+    <string name="prowomen">prowomen</string>
+    <string name="promen">promen</string>
+    <string name="woman">woman</string>
+    <string name="nobody">Nobody</string>
+    <string name="suraj">Suraj</string>
+    <string name="neeraj">Neeraj</string>
+    <string name="instagram">Instagram</string>
+    <string name="title_home">title</string>
+    <string name="title_dashboard">titile_dash</string>
+</resources>
