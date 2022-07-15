@@ -4,9 +4,9 @@
     <string name="login_to_continue">login_to_continue</string>
     <string name="email">email</string>
     <string name="password">password</string>
-    <string name="sign_in">sign_in</string>
+    <string name="sign_in">SIGN IN</string>
     <string name="create_new_account">create_new_account</string>
     <string name="add_image">add_image</string>
     <string name="name">Name</string>
-    <string name="sign_up">sign_up</string>
+    <string name="sign_up">SIGN UP</string>
 </resources>
